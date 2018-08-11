@@ -2,6 +2,28 @@
  * Additional CSS for Hyde-X
  */
 
+ html {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+.post h1,h2,h3,h4,h5 {
+  font-family: "Merriweather", serif;
+}
+html {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+   }
+   @media (min-width: 48em) {
+     html {
+      font-size: 12px;
+     }
+   }
+   @media (min-width: 58em) {
+     html {
+      font-size: 16px;
+     }
+   }
+.sidebar-about h1 {
+  font-family: "Merriweather", serif;
+}
 .posts {
   list-style: none;
 }
